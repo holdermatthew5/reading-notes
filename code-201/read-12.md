@@ -1,0 +1,6 @@
+- `getContext('2d')` is actually telling the graph that it will be a 2 dimensional graph instead of 3d.
+- adding a new object under datasets adds a second line under the same label where adding a new value to the array labels adds new labels to the x-axis.
+- if chart seems distorted changing the html width and height attributes might help (as opposed to adding height/width properties in css).
+- you can add content between the canvas opening and closing tag incase the browser doesn't support canvas. This will be ignored completely if the browser does support canvas.
+- not adding the closing tag will make the browser assume the whole rest of the document is the fallback content. This means the browser won't display that content unless the browser doesn't support canvas.
+- fillText(text, x, y [, maxWidth]) and strokeText(text, x, y [, maxWidth]) both draw text with optional minWidth arguments at the x/y coordinates of the canvas element.

@@ -1,0 +1,11 @@
+- a shell is part of the terminal and tells it how to behave and appear on screne.
+  - I'd really like to see how that actually works because I feel like it might be talking about things like color scheme and feature definitions like making ls list the contents of the file you're in, but I'm not 100% sure.
+- Plenty of linux shortcuts to make coding easier/faster and eliminate some spelling errors.
+- relative paths only show what is around you. It would be like looking at the papers inside a folder. absolute paths show whatever is in the file you listed regardless of where you are. It would be like remembering what papers are in a folder that's still sitting in its drawer.
+
+- `pwd` (Print Working Directory)=tells you which directory you're in right now.
+- `ls` (list)=lists what your present directory contains. this command can be run with add ons like `-l` (which is shown: `ls -l`), or `/etc` (which is shown: `ls /etc`).
+- `~` refers to your home directory
+- `.` refers to directory you are presently in
+- `..` refers to parent directory (the file that holds the file you are presently in)
+- If absolute paths start with a `/` what does it mean by itself as shown in: `ls /`?

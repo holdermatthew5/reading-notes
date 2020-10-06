@@ -1,0 +1,8 @@
+- `<html>` tag indicates we are using html.
+- `<body>` tag shows what will actually be displayed.
+- `<h1>, <h2>, ..., <h6>` are headings and indicated importance (closer to 1 = higher importance.
+- `<p>` tags indicate actual content like text images and links.
+- opening tags contain the specified element within opposing angle brackets: `<html>`, `<body>`, so on.
+- any closing tag is denoted with a copy of the opening tag with a `/` before the letter word. Such as: `</html>`, `</body>`, so on.
+- attributes contain more spicific information about the element and can contain images, links, styling, etc. The structure for attributes is: "attribute-name='attribute-value'" (`lang='en'`), (`href='URL'`), ...
+- html has 'reserved' character, such as `<>&"'`, in order for these to appear onscreen html needs a backslash (`\`) immediately before the character.

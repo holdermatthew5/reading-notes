@@ -1,0 +1,19 @@
+- align moves things left right and center. should I be using this for the h1 and p in lab-02?
+- `<img>` creates an image. Adding `<img src=''>` allows you to put a link/path to the image you intend to use in the quotes after 'src='. Adding `<img src='' title=''>` allows you to describe the image, in the quotes after 'title=', for screen readers and 'alt=' allows you to describe img incase the link/path fails.
+- width and height could be changed similarly but that should be left to css
+- book shows putting img in p tag at beiginning of text then in css `vertical-align: 'middle';` and `text-align: 'center';`. but then wouldn't the image be considered text then and cause the whole paragraph plus img to move together?
+- adjust image size with photo editor before linking result to site to keep from being distorted
+- should img be resized by stretching or cropping? to reduce the pixel thing and should not be stretched to far outward for the same reson.
+- you can make a gif for loading bars/circles and stuff big file sizes will take longer to load and browser might stop the page from loading for taking too long
+- to put a caption under/over an img put img and `<figcaption>` in either order of top to bottom inside a `<figure>` element (`<br />` may be necessary cause of how p tag works).
+- color codes include: 
+  - hex codes: #ee3e80 6 characters indicating amount of red, blue and green present in the color preceded by #
+  - rgb values: rgb(100,100,90) indicates amount of red green and blue are present in the colorsurrounded in parenthesis and preceded by 'rgb'
+  - color name: DarkCyan describes name of predefined color
+
+- can be placed in appropriate position in background-color, color, and padding/border/margin rules
+- saturation describes amount of grey in a color/img, hue describes actual color and brightness describes amount of black in a color/img
+- contrast describes level of difference in color between text and background black & white vs black & dark grey
+- opacity (level of transparency) is determined by adding '0.0-1.0' to opacity rule or as 5th value to rgba value. it seems rgba doesn't affect children which seems to imply apacity rule applies to children of element.
+- hsl/hsla indicates hue saturation lightness (brightness with white instead of black) and alpha (transparency)
+- typeface is shape of letters font weight is light, medium, bold

@@ -1,0 +1,8 @@
+- "if keyword var is not used when creating a variable it is placed in global context." does this mean I can assign a variable global context even if it's created in a function? (this would be useful for referencing values of variables before the function is done running its code.)
+- runs code 1 at a time (stops one line when it needs to reference something moves to run the code needed to reference it then continues running the original line.)
+- can call a function before it's created as long as it's not a function expression (`var functionName = function(){code}`)
+- preparation phase - all variables functions and arguments are created after creating the global scope and before finding the value of the `this` keyword.
+- execution phase - assigns values, references/runs functions and runs code.
+- each execution context has its own variables object holding all available variables, functions and parameters ready for use by it's current or child context.
+- functions have 'lexical' scope meaning they are linked to the object they are defined in.
+- the scope of each execution context is its variables object and that of each of its parent execution scopes.
