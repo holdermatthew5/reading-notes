@@ -1,0 +1,1 @@
+In the sendPage function it creates an object assigning this key value pair `"Content-type" : mime.lookup(path.basename(filepath)). mime.lookup is a function that funds the mimetype of a file and it needs the file name passed in as an argument. to find the argument we use the path.basename method which requires the filePath to be passed in as an argument.
