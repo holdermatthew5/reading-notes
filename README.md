@@ -36,4 +36,5 @@ This website is intended to keep track of useful information found in article an
 [Read 03](code-301/read-03.md)
 [Read 04](code-301/read-04.md)
 [Read 05](code-301/read-05.md)
+[Read 06](code-301/read-06.md)
 ## CODE 401 - Advanced Software Development
