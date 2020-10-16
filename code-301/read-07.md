@@ -1,0 +1,1 @@
+The article seems to be explaining that the internet is essentially just computers passing information back and forth on command creatimg human readable instances of the necessary information also on command where the computer makes both commands based on the software it's running on. Does this mean we'll be learning how to make that exchange happen manually?
